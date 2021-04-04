@@ -18,3 +18,5 @@ lazy val sudoku = (project in file("."))
       "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion
     )
   )
+
+mainClass in (Compile, run) := Some("sudoku.ui.MainGame")

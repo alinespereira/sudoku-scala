@@ -1,5 +1,7 @@
 ThisBuild / scalaVersion := "2.12.10"
 
+Global / onChangedBuildSource := ReloadOnSourceChanges
+
 val TensorflowVersion = "0.4.1"
 val JodaTimeVersion = "2.10.10"
 val AkkaVersion = "2.6.13"
